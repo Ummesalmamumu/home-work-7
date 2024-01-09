@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul,ol {
+    list-style: none;
+} 
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container 
+{
+   
+    width: 1170px;
+    margin: auto;
+    
+}
+nav{
+    background-color:#02918c ;
+   
+
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.align center{
+    align-items: center;
+}
+    
+nav ul li {
+    display: inline-block;
+  
+}
+
+.first{
+    width: 30%;
+    padding: 2% 0%;
+  
+   
+}
+.second {
+    width: 70%;
+    text-align: right;
+    
+}
+nav .second ul li a{
+    color: white;
+    font-weight: 800;
+   text-transform: uppercase;
+   font-size: 12px;
+   padding:26px 25px ;
+   display: block;
+}
